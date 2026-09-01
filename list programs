@@ -1,10 +1,1 @@
-#1
-nums=[]
-for i in range (5):
-    num=int(input("enter number: "))
-    nums.append(num)
 
-print(nums)
-index=int(input("enter index of item to be removed:"))
-nums.pop(index)
-print(nums) 
